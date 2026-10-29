@@ -1,0 +1,905 @@
+{
+  "flow": {
+    "all_reference": 21799,
+    "all_automatic": 21799,
+    "reference_unique_ecg": 21799,
+    "auto_unique_ecg": 21799,
+    "common_ecg": 21799,
+    "reference_only": 0,
+    "automatic_only": 0,
+    "fold10": 2198,
+    "age_missing": 0,
+    "children": 13,
+    "adult": 2185,
+    "human_adult": 2185,
+    "paired": 2185,
+    "index": 1893,
+    "repeat_patients": 226,
+    "excluded_repeat_records": 292,
+    "special_age_index": 32
+  },
+  "main": [
+    {
+      "target": "AFIB",
+      "n": 1893,
+      "evaluated": 1893,
+      "missing": 0,
+      "unresolved": 0,
+      "equivocal_records": 0,
+      "reference_status_counts": {
+        "positive": 114,
+        "negative": 1779,
+        "equivocal": 0,
+        "unavailable": 0
+      },
+      "automatic_status_counts": {
+        "positive": 101,
+        "negative": 1792,
+        "equivocal": 0,
+        "unavailable": 0
+      },
+      "a": 93,
+      "b": 8,
+      "c": 21,
+      "d": 1771,
+      "ref_positive": 114,
+      "auto_positive": 101,
+      "PPA": 0.8157894736842105,
+      "NPA": 0.9955030916245081,
+      "PPA_CI": [
+        0.7347507139842893,
+        0.8762396854943371
+      ],
+      "NPA_CI": [
+        0.991151276971163,
+        0.9977196017474534
+      ]
+    },
+    {
+      "target": "CLBBB",
+      "n": 1893,
+      "evaluated": 1893,
+      "missing": 0,
+      "unresolved": 0,
+      "equivocal_records": 0,
+      "reference_status_counts": {
+        "positive": 39,
+        "negative": 1854,
+        "equivocal": 0,
+        "unavailable": 0
+      },
+      "automatic_status_counts": {
+        "positive": 41,
+        "negative": 1852,
+        "equivocal": 0,
+        "unavailable": 0
+      },
+      "a": 36,
+      "b": 5,
+      "c": 3,
+      "d": 1849,
+      "ref_positive": 39,
+      "auto_positive": 41,
+      "PPA": 0.9230769230769231,
+      "NPA": 0.9973031283710896,
+      "PPA_CI": [
+        0.7967892883204503,
+        0.9734926046962203
+      ],
+      "NPA_CI": [
+        0.9937021849266516,
+        0.9988475244390334
+      ]
+    },
+    {
+      "target": "CRBBB",
+      "n": 1893,
+      "evaluated": 1893,
+      "missing": 0,
+      "unresolved": 0,
+      "equivocal_records": 0,
+      "reference_status_counts": {
+        "positive": 45,
+        "negative": 1848,
+        "equivocal": 0,
+        "unavailable": 0
+      },
+      "automatic_status_counts": {
+        "positive": 63,
+        "negative": 1830,
+        "equivocal": 0,
+        "unavailable": 0
+      },
+      "a": 44,
+      "b": 19,
+      "c": 1,
+      "d": 1829,
+      "ref_positive": 45,
+      "auto_positive": 63,
+      "PPA": 0.9777777777777777,
+      "NPA": 0.9897186147186147,
+      "PPA_CI": [
+        0.8843331823158513,
+        0.9960664011171667
+      ],
+      "NPA_CI": [
+        0.9839973822465434,
+        0.9934081031845149
+      ]
+    }
+  ],
+  "scenarios": {
+    "positive": [
+      {
+        "target": "AFIB",
+        "n": 1893,
+        "evaluated": 1893,
+        "missing": 0,
+        "unresolved": 0,
+        "equivocal_records": 0,
+        "reference_status_counts": {
+          "positive": 114,
+          "negative": 1779,
+          "equivocal": 0,
+          "unavailable": 0
+        },
+        "automatic_status_counts": {
+          "positive": 101,
+          "negative": 1792,
+          "equivocal": 0,
+          "unavailable": 0
+        },
+        "a": 93,
+        "b": 8,
+        "c": 21,
+        "d": 1771,
+        "ref_positive": 114,
+        "auto_positive": 101,
+        "PPA": 0.8157894736842105,
+        "NPA": 0.9955030916245081
+      },
+      {
+        "target": "CLBBB",
+        "n": 1893,
+        "evaluated": 1893,
+        "missing": 0,
+        "unresolved": 0,
+        "equivocal_records": 0,
+        "reference_status_counts": {
+          "positive": 39,
+          "negative": 1854,
+          "equivocal": 0,
+          "unavailable": 0
+        },
+        "automatic_status_counts": {
+          "positive": 41,
+          "negative": 1852,
+          "equivocal": 0,
+          "unavailable": 0
+        },
+        "a": 36,
+        "b": 5,
+        "c": 3,
+        "d": 1849,
+        "ref_positive": 39,
+        "auto_positive": 41,
+        "PPA": 0.9230769230769231,
+        "NPA": 0.9973031283710896
+      },
+      {
+        "target": "CRBBB",
+        "n": 1893,
+        "evaluated": 1893,
+        "missing": 0,
+        "unresolved": 0,
+        "equivocal_records": 0,
+        "reference_status_counts": {
+          "positive": 45,
+          "negative": 1848,
+          "equivocal": 0,
+          "unavailable": 0
+        },
+        "automatic_status_counts": {
+          "positive": 63,
+          "negative": 1830,
+          "equivocal": 0,
+          "unavailable": 0
+        },
+        "a": 44,
+        "b": 19,
+        "c": 1,
+        "d": 1829,
+        "ref_positive": 45,
+        "auto_positive": 63,
+        "PPA": 0.9777777777777777,
+        "NPA": 0.9897186147186147
+      }
+    ],
+    "negative": [
+      {
+        "target": "AFIB",
+        "n": 1893,
+        "evaluated": 1893,
+        "missing": 0,
+        "unresolved": 0,
+        "equivocal_records": 0,
+        "reference_status_counts": {
+          "positive": 114,
+          "negative": 1779,
+          "equivocal": 0,
+          "unavailable": 0
+        },
+        "automatic_status_counts": {
+          "positive": 101,
+          "negative": 1792,
+          "equivocal": 0,
+          "unavailable": 0
+        },
+        "a": 93,
+        "b": 8,
+        "c": 21,
+        "d": 1771,
+        "ref_positive": 114,
+        "auto_positive": 101,
+        "PPA": 0.8157894736842105,
+        "NPA": 0.9955030916245081
+      },
+      {
+        "target": "CLBBB",
+        "n": 1893,
+        "evaluated": 1893,
+        "missing": 0,
+        "unresolved": 0,
+        "equivocal_records": 0,
+        "reference_status_counts": {
+          "positive": 39,
+          "negative": 1854,
+          "equivocal": 0,
+          "unavailable": 0
+        },
+        "automatic_status_counts": {
+          "positive": 41,
+          "negative": 1852,
+          "equivocal": 0,
+          "unavailable": 0
+        },
+        "a": 36,
+        "b": 5,
+        "c": 3,
+        "d": 1849,
+        "ref_positive": 39,
+        "auto_positive": 41,
+        "PPA": 0.9230769230769231,
+        "NPA": 0.9973031283710896
+      },
+      {
+        "target": "CRBBB",
+        "n": 1893,
+        "evaluated": 1893,
+        "missing": 0,
+        "unresolved": 0,
+        "equivocal_records": 0,
+        "reference_status_counts": {
+          "positive": 45,
+          "negative": 1848,
+          "equivocal": 0,
+          "unavailable": 0
+        },
+        "automatic_status_counts": {
+          "positive": 63,
+          "negative": 1830,
+          "equivocal": 0,
+          "unavailable": 0
+        },
+        "a": 44,
+        "b": 19,
+        "c": 1,
+        "d": 1829,
+        "ref_positive": 45,
+        "auto_positive": 63,
+        "PPA": 0.9777777777777777,
+        "NPA": 0.9897186147186147
+      }
+    ]
+  },
+  "strata": {
+    "sex": {
+      "0": [
+        {
+          "target": "AFIB",
+          "n": 965,
+          "evaluated": 965,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 57,
+            "negative": 908,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 53,
+            "negative": 912,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 48,
+          "b": 5,
+          "c": 9,
+          "d": 903,
+          "ref_positive": 57,
+          "auto_positive": 53,
+          "PPA": 0.8421052631578947,
+          "NPA": 0.9944933920704846
+        },
+        {
+          "target": "CLBBB",
+          "n": 965,
+          "evaluated": 965,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 15,
+            "negative": 950,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 17,
+            "negative": 948,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 14,
+          "b": 3,
+          "c": 1,
+          "d": 947,
+          "ref_positive": 15,
+          "auto_positive": 17,
+          "PPA": 0.9333333333333333,
+          "NPA": 0.9968421052631579
+        },
+        {
+          "target": "CRBBB",
+          "n": 965,
+          "evaluated": 965,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 30,
+            "negative": 935,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 42,
+            "negative": 923,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 30,
+          "b": 12,
+          "c": 0,
+          "d": 923,
+          "ref_positive": 30,
+          "auto_positive": 42,
+          "PPA": 1.0,
+          "NPA": 0.9871657754010695
+        }
+      ],
+      "1": [
+        {
+          "target": "AFIB",
+          "n": 928,
+          "evaluated": 928,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 57,
+            "negative": 871,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 48,
+            "negative": 880,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 45,
+          "b": 3,
+          "c": 12,
+          "d": 868,
+          "ref_positive": 57,
+          "auto_positive": 48,
+          "PPA": 0.7894736842105263,
+          "NPA": 0.9965556831228473
+        },
+        {
+          "target": "CLBBB",
+          "n": 928,
+          "evaluated": 928,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 24,
+            "negative": 904,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 24,
+            "negative": 904,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 22,
+          "b": 2,
+          "c": 2,
+          "d": 902,
+          "ref_positive": 24,
+          "auto_positive": 24,
+          "PPA": 0.9166666666666666,
+          "NPA": 0.9977876106194691
+        },
+        {
+          "target": "CRBBB",
+          "n": 928,
+          "evaluated": 928,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 15,
+            "negative": 913,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 21,
+            "negative": 907,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 14,
+          "b": 7,
+          "c": 1,
+          "d": 906,
+          "ref_positive": 15,
+          "auto_positive": 21,
+          "PPA": 0.9333333333333333,
+          "NPA": 0.9923329682365827
+        }
+      ],
+      "缺失/其他": [
+        {
+          "target": "AFIB",
+          "n": 0,
+          "evaluated": 0,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 0,
+            "negative": 0,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 0,
+            "negative": 0,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 0,
+          "b": 0,
+          "c": 0,
+          "d": 0,
+          "ref_positive": 0,
+          "auto_positive": 0,
+          "PPA": null,
+          "NPA": null
+        },
+        {
+          "target": "CLBBB",
+          "n": 0,
+          "evaluated": 0,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 0,
+            "negative": 0,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 0,
+            "negative": 0,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 0,
+          "b": 0,
+          "c": 0,
+          "d": 0,
+          "ref_positive": 0,
+          "auto_positive": 0,
+          "PPA": null,
+          "NPA": null
+        },
+        {
+          "target": "CRBBB",
+          "n": 0,
+          "evaluated": 0,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 0,
+            "negative": 0,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 0,
+            "negative": 0,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 0,
+          "b": 0,
+          "c": 0,
+          "d": 0,
+          "ref_positive": 0,
+          "auto_positive": 0,
+          "PPA": null,
+          "NPA": null
+        }
+      ]
+    },
+    "quality": {
+      "存在": [
+        {
+          "target": "AFIB",
+          "n": 437,
+          "evaluated": 437,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 28,
+            "negative": 409,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 31,
+            "negative": 406,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 25,
+          "b": 6,
+          "c": 3,
+          "d": 403,
+          "ref_positive": 28,
+          "auto_positive": 31,
+          "PPA": 0.8928571428571429,
+          "NPA": 0.9853300733496333
+        },
+        {
+          "target": "CLBBB",
+          "n": 437,
+          "evaluated": 437,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 6,
+            "negative": 431,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 6,
+            "negative": 431,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 5,
+          "b": 1,
+          "c": 1,
+          "d": 430,
+          "ref_positive": 6,
+          "auto_positive": 6,
+          "PPA": 0.8333333333333334,
+          "NPA": 0.9976798143851509
+        },
+        {
+          "target": "CRBBB",
+          "n": 437,
+          "evaluated": 437,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 15,
+            "negative": 422,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 18,
+            "negative": 419,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 14,
+          "b": 4,
+          "c": 1,
+          "d": 418,
+          "ref_positive": 15,
+          "auto_positive": 18,
+          "PPA": 0.9333333333333333,
+          "NPA": 0.990521327014218
+        }
+      ],
+      "未记录": [
+        {
+          "target": "AFIB",
+          "n": 1456,
+          "evaluated": 1456,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 86,
+            "negative": 1370,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 70,
+            "negative": 1386,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 68,
+          "b": 2,
+          "c": 18,
+          "d": 1368,
+          "ref_positive": 86,
+          "auto_positive": 70,
+          "PPA": 0.7906976744186046,
+          "NPA": 0.9985401459854014
+        },
+        {
+          "target": "CLBBB",
+          "n": 1456,
+          "evaluated": 1456,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 33,
+            "negative": 1423,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 35,
+            "negative": 1421,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 31,
+          "b": 4,
+          "c": 2,
+          "d": 1419,
+          "ref_positive": 33,
+          "auto_positive": 35,
+          "PPA": 0.9393939393939394,
+          "NPA": 0.9971890372452565
+        },
+        {
+          "target": "CRBBB",
+          "n": 1456,
+          "evaluated": 1456,
+          "missing": 0,
+          "unresolved": 0,
+          "equivocal_records": 0,
+          "reference_status_counts": {
+            "positive": 30,
+            "negative": 1426,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "automatic_status_counts": {
+            "positive": 45,
+            "negative": 1411,
+            "equivocal": 0,
+            "unavailable": 0
+          },
+          "a": 30,
+          "b": 15,
+          "c": 0,
+          "d": 1411,
+          "ref_positive": 30,
+          "auto_positive": 45,
+          "PPA": 1.0,
+          "NPA": 0.9894810659186536
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "target": "AFIB",
+      "n": 2185,
+      "evaluated": 2185,
+      "missing": 0,
+      "unresolved": 0,
+      "equivocal_records": 0,
+      "reference_status_counts": {
+        "positive": 151,
+        "negative": 2034,
+        "equivocal": 0,
+        "unavailable": 0
+      },
+      "automatic_status_counts": {
+        "positive": 132,
+        "negative": 2053,
+        "equivocal": 0,
+        "unavailable": 0
+      },
+      "a": 122,
+      "b": 10,
+      "c": 29,
+      "d": 2024,
+      "ref_positive": 151,
+      "auto_positive": 132,
+      "PPA": 0.8079470198675497,
+      "NPA": 0.9950835791543756
+    },
+    {
+      "target": "CLBBB",
+      "n": 2185,
+      "evaluated": 2185,
+      "missing": 0,
+      "unresolved": 0,
+      "equivocal_records": 0,
+      "reference_status_counts": {
+        "positive": 54,
+        "negative": 2131,
+        "equivocal": 0,
+        "unavailable": 0
+      },
+      "automatic_status_counts": {
+        "positive": 55,
+        "negative": 2130,
+        "equivocal": 0,
+        "unavailable": 0
+      },
+      "a": 49,
+      "b": 6,
+      "c": 5,
+      "d": 2125,
+      "ref_positive": 54,
+      "auto_positive": 55,
+      "PPA": 0.9074074074074074,
+      "NPA": 0.997184420459878
+    },
+    {
+      "target": "CRBBB",
+      "n": 2185,
+      "evaluated": 2185,
+      "missing": 0,
+      "unresolved": 0,
+      "equivocal_records": 0,
+      "reference_status_counts": {
+        "positive": 54,
+        "negative": 2131,
+        "equivocal": 0,
+        "unavailable": 0
+      },
+      "automatic_status_counts": {
+        "positive": 74,
+        "negative": 2111,
+        "equivocal": 0,
+        "unavailable": 0
+      },
+      "a": 53,
+      "b": 21,
+      "c": 1,
+      "d": 2110,
+      "ref_positive": 54,
+      "auto_positive": 74,
+      "PPA": 0.9814814814814815,
+      "NPA": 0.990145471609573
+    }
+  ],
+  "sex_counts": {
+    "0": 965,
+    "1": 928,
+    "缺失/其他": 0
+  },
+  "quality_counts": {
+    "存在": 437,
+    "未记录": 1456
+  },
+  "target_values": {
+    "AFIB": {
+      "ref": {
+        "None": 1779,
+        "0.0": 111,
+        "100.0": 3
+      },
+      "auto": {
+        "None": 1792,
+        "100.0": 101
+      }
+    },
+    "CLBBB": {
+      "ref": {
+        "None": 1854,
+        "100.0": 39
+      },
+      "auto": {
+        "None": 1852,
+        "100.0": 41
+      }
+    },
+    "CRBBB": {
+      "ref": {
+        "None": 1848,
+        "100.0": 45
+      },
+      "auto": {
+        "None": 1830,
+        "100.0": 63
+      }
+    }
+  },
+  "mappings": {
+    "AFIB": {
+      "concept_key": 313217,
+      "description": "Atrial fibrillation",
+      "automatic_codes": [
+        "AFIB"
+      ],
+      "in_both": true,
+      "informative": true
+    },
+    "CLBBB": {
+      "concept_key": 4267892,
+      "description": "Complete left bundle branch block",
+      "automatic_codes": [
+        "LBBB"
+      ],
+      "in_both": true,
+      "informative": true
+    },
+    "CRBBB": {
+      "concept_key": 4088337,
+      "description": "Complete right bundle branch block",
+      "automatic_codes": [
+        "RBBB",
+        "RVE+"
+      ],
+      "in_both": true,
+      "informative": true
+    }
+  },
+  "method": {
+    "z": 1.959963984540054,
+    "interval": "two-sided 95% Wilson score",
+    "display": "1 decimal percent; full precision retained",
+    "comparison": "automatic rows / archived reference columns"
+  }
+}

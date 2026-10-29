@@ -1,0 +1,23 @@
+{
+  "name": "跨领域专家模型评测试题",
+  "question_count": 10,
+  "domain_counts": {
+    "医疗": 4,
+    "法律": 3,
+    "金融": 3
+  },
+  "scoring_criteria_count": 384,
+  "input_file_count": 133,
+  "reference_file_count": 29,
+  "formats": [
+    "Markdown",
+    "JSON",
+    "JSONL",
+    "PDF",
+    "XLSX",
+    "DOCX",
+    "CSV",
+    "ZIP",
+    "Python"
+  ]
+}
